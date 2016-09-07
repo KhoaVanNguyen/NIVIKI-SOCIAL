@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C8A406A16C2E7980EDD14B9 /* Pods_NivikiSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7917AFF1266A279FD806F577 /* Pods_NivikiSocial.framework */; };
+		9DCBED2A54DC8F34178ECFBB /* Pods_NivikiSocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5847D237C60006A8D828626 /* Pods_NivikiSocialTests.framework */; };
 		D21260861D80008400F78754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21260851D80008400F78754 /* AppDelegate.swift */; };
 		D21260881D80008400F78754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21260871D80008400F78754 /* ViewController.swift */; };
 		D212608B1D80008400F78754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21260891D80008400F78754 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		D21260901D80008400F78754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D212608E1D80008400F78754 /* LaunchScreen.storyboard */; };
 		D212609B1D80008400F78754 /* NivikiSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D212609A1D80008400F78754 /* NivikiSocialTests.swift */; };
 		D21260A61D80008400F78754 /* NivikiSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21260A51D80008400F78754 /* NivikiSocialUITests.swift */; };
+		D21260B41D8000BC00F78754 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D21260B31D8000BC00F78754 /* GoogleService-Info.plist */; };
+		EDF2C97A8A51F9D1B9A6D845 /* Pods_NivikiSocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04C0DFADF2ABBAFB4142A2D /* Pods_NivikiSocialUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2651AAD1EE28779447BE4624 /* Pods-NivikiSocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NivikiSocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NivikiSocialTests/Pods-NivikiSocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD84F38D642E454DA30AF84 /* Pods-NivikiSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NivikiSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-NivikiSocial/Pods-NivikiSocial.release.xcconfig"; sourceTree = "<group>"; };
+		672E03FFACC66B7E19116655 /* Pods-NivikiSocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NivikiSocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NivikiSocialTests/Pods-NivikiSocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		7917AFF1266A279FD806F577 /* Pods_NivikiSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NivikiSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C25AD468FE93615BD851D86 /* Pods-NivikiSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NivikiSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NivikiSocial/Pods-NivikiSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		B5847D237C60006A8D828626 /* Pods_NivikiSocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NivikiSocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21260821D80008400F78754 /* NivikiSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NivikiSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21260851D80008400F78754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D21260871D80008400F78754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		D21260A11D80008400F78754 /* NivikiSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NivikiSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21260A51D80008400F78754 /* NivikiSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivikiSocialUITests.swift; sourceTree = "<group>"; };
 		D21260A71D80008400F78754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21260B31D8000BC00F78754 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDA969E5AA7D61EF899B8F2A /* Pods-NivikiSocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NivikiSocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NivikiSocialUITests/Pods-NivikiSocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E04C0DFADF2ABBAFB4142A2D /* Pods_NivikiSocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NivikiSocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB95D4AA7F06816C4A69886 /* Pods-NivikiSocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NivikiSocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NivikiSocialUITests/Pods-NivikiSocialUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8A406A16C2E7980EDD14B9 /* Pods_NivikiSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCBED2A54DC8F34178ECFBB /* Pods_NivikiSocialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF2C97A8A51F9D1B9A6D845 /* Pods_NivikiSocialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02F262D50543D697458E6D96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7917AFF1266A279FD806F577 /* Pods_NivikiSocial.framework */,
+				B5847D237C60006A8D828626 /* Pods_NivikiSocialTests.framework */,
+				E04C0DFADF2ABBAFB4142A2D /* Pods_NivikiSocialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		523F12BF14E62EBD73F38A77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C25AD468FE93615BD851D86 /* Pods-NivikiSocial.debug.xcconfig */,
+				5BD84F38D642E454DA30AF84 /* Pods-NivikiSocial.release.xcconfig */,
+				2651AAD1EE28779447BE4624 /* Pods-NivikiSocialTests.debug.xcconfig */,
+				672E03FFACC66B7E19116655 /* Pods-NivikiSocialTests.release.xcconfig */,
+				DDA969E5AA7D61EF899B8F2A /* Pods-NivikiSocialUITests.debug.xcconfig */,
+				EFB95D4AA7F06816C4A69886 /* Pods-NivikiSocialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D21260791D80008300F78754 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				D21260991D80008400F78754 /* NivikiSocialTests */,
 				D21260A41D80008400F78754 /* NivikiSocialUITests */,
 				D21260831D80008400F78754 /* Products */,
+				523F12BF14E62EBD73F38A77 /* Pods */,
+				02F262D50543D697458E6D96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				D212608C1D80008400F78754 /* Assets.xcassets */,
 				D212608E1D80008400F78754 /* LaunchScreen.storyboard */,
 				D21260911D80008400F78754 /* Info.plist */,
+				D21260B31D8000BC00F78754 /* GoogleService-Info.plist */,
 			);
 			path = NivikiSocial;
 			sourceTree = "<group>";
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D21260AA1D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocial" */;
 			buildPhases = (
+				AD4FFE2AA559F78A3611C17F /* [CP] Check Pods Manifest.lock */,
 				D212607E1D80008300F78754 /* Sources */,
 				D212607F1D80008300F78754 /* Frameworks */,
 				D21260801D80008300F78754 /* Resources */,
+				0252318E5744697E57328C5C /* [CP] Embed Pods Frameworks */,
+				F3140AC7EAC6DB57CE140545 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D21260AD1D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocialTests" */;
 			buildPhases = (
+				0D7E3CCA4EDC7D6ABFA9B53C /* [CP] Check Pods Manifest.lock */,
 				D21260921D80008400F78754 /* Sources */,
 				D21260931D80008400F78754 /* Frameworks */,
 				D21260941D80008400F78754 /* Resources */,
+				751756A5DE5FED6F38316177 /* [CP] Embed Pods Frameworks */,
+				5686528A4246B1531468B41E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D21260B01D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocialUITests" */;
 			buildPhases = (
+				4F8DCBA531090338E0062CE0 /* [CP] Check Pods Manifest.lock */,
 				D212609D1D80008400F78754 /* Sources */,
 				D212609E1D80008400F78754 /* Frameworks */,
 				D212609F1D80008400F78754 /* Resources */,
+				D9C07818ECF61C3F42C59AD1 /* [CP] Embed Pods Frameworks */,
+				4C730DC1E626E3AC710D2E12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D21260901D80008400F78754 /* LaunchScreen.storyboard in Resources */,
+				D21260B41D8000BC00F78754 /* GoogleService-Info.plist in Resources */,
 				D212608D1D80008400F78754 /* Assets.xcassets in Resources */,
 				D212608B1D80008400F78754 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0252318E5744697E57328C5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NivikiSocial/Pods-NivikiSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D7E3CCA4EDC7D6ABFA9B53C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C730DC1E626E3AC710D2E12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NivikiSocialUITests/Pods-NivikiSocialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8DCBA531090338E0062CE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5686528A4246B1531468B41E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NivikiSocialTests/Pods-NivikiSocialTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751756A5DE5FED6F38316177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NivikiSocialTests/Pods-NivikiSocialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4FFE2AA559F78A3611C17F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C07818ECF61C3F42C59AD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NivikiSocialUITests/Pods-NivikiSocialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3140AC7EAC6DB57CE140545 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NivikiSocial/Pods-NivikiSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D212607E1D80008300F78754 /* Sources */ = {
@@ -413,6 +604,7 @@
 		};
 		D21260AB1D80008400F78754 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C25AD468FE93615BD851D86 /* Pods-NivikiSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WG937QNZTU;
@@ -426,6 +618,7 @@
 		};
 		D21260AC1D80008400F78754 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD84F38D642E454DA30AF84 /* Pods-NivikiSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WG937QNZTU;
@@ -439,6 +632,7 @@
 		};
 		D21260AE1D80008400F78754 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2651AAD1EE28779447BE4624 /* Pods-NivikiSocialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +648,7 @@
 		};
 		D21260AF1D80008400F78754 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672E03FFACC66B7E19116655 /* Pods-NivikiSocialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +664,7 @@
 		};
 		D21260B11D80008400F78754 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA969E5AA7D61EF899B8F2A /* Pods-NivikiSocialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WG937QNZTU;
@@ -483,6 +679,7 @@
 		};
 		D21260B21D80008400F78754 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB95D4AA7F06816C4A69886 /* Pods-NivikiSocialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WG937QNZTU;
@@ -514,6 +711,7 @@
 				D21260AC1D80008400F78754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D21260AD1D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +720,7 @@
 				D21260AF1D80008400F78754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D21260B01D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +729,7 @@
 				D21260B21D80008400F78754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

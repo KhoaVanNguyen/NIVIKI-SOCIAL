@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21C64A0A4650DCFA301850A076ACD552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		476A999A92FBDF4CA21AE59FC05D7623 /* Pods-NivikiSocialUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5164D315469702D50A545A0DD5026B /* Pods-NivikiSocialUITests-dummy.m */; };
+		6267C9FAE8A7A9202579A72EE6CABE9A /* Pods-NivikiSocialUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7858F89D77D798441CE082B185EFE2 /* Pods-NivikiSocialUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D542340402AAA44BAD0ACB418696C77 /* Pods-NivikiSocial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C4E17876731F8104DACC14E6418532 /* Pods-NivikiSocial-dummy.m */; };
+		970DB30F0F71A17A0E1E55DCC3E9210D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AE36A565DF1C478FC239C96BFC67F660 /* Pods-NivikiSocial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0180B97A4CFB37031AD8DDEA292B7E3E /* Pods-NivikiSocial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91CF4BBCAEF624DD2FD9D003F870C07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BD451EF37F6F4A3C0010009499C90BDC /* Pods-NivikiSocialTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3178136431CDB917739D7B57DAD724 /* Pods-NivikiSocialTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0ED9F185A0461FB0731AC74757F9E1A /* Pods-NivikiSocialTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D87393CAA964C4D51C935B2A81852AA3 /* Pods-NivikiSocialTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00AB2281BE2AA3FAD4185197782FBA4A /* Pods_NivikiSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NivikiSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0180B97A4CFB37031AD8DDEA292B7E3E /* Pods-NivikiSocial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NivikiSocial-umbrella.h"; sourceTree = "<group>"; };
+		0690B02DA41066CE1F1798BCF565E222 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		17AE2FD0E3983A4D1450C5D0674C3A5B /* Pods-NivikiSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NivikiSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		1815D2A3010404CD543E84C5268BCABC /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		1874DB862A2E51D732F2CF3569FD9FE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26AC8864A615D4CCBB2C286CCE2EE8B7 /* Pods-NivikiSocialTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NivikiSocialTests.modulemap"; sourceTree = "<group>"; };
+		289FB5EA98E12699C5292504028DE73A /* Pods-NivikiSocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NivikiSocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28E068939D9EE20C8EF10B07D3E31F4C /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		3BC65CAE746E7FE76B65727F5D25B230 /* Pods-NivikiSocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NivikiSocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D93731212DBA6EF0BF2F4A1ECB2FC3B /* Pods-NivikiSocialTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NivikiSocialTests-frameworks.sh"; sourceTree = "<group>"; };
+		4354B0DC6A62B28BBDFC193917823932 /* Pods-NivikiSocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NivikiSocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		456D72B3DEEC8D62619F911557A52D0E /* Pods-NivikiSocialUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NivikiSocialUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46AAA5939E5C1652670415EB134EFB96 /* Pods-NivikiSocial-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NivikiSocial-resources.sh"; sourceTree = "<group>"; };
+		48363D56FA014783FF609410AAF19644 /* Pods-NivikiSocialTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NivikiSocialTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4DD84742871A6446D9EC6D3556EE9043 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		4ECCE3402153259021AF24C923F9DB31 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		51FF6089716E6905B2D5300C62E3FF6D /* Pods_NivikiSocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NivikiSocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		532611F90EAAA51BF079FFAB530AC8B0 /* Pods-NivikiSocialTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NivikiSocialTests-resources.sh"; sourceTree = "<group>"; };
+		63DDFEFC1970DD137BD9F7846F09ECAB /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		710AEBBBD0E45EDE9A26E767C35127C8 /* Pods-NivikiSocialUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NivikiSocialUITests-resources.sh"; sourceTree = "<group>"; };
+		74221A11F5559623FF3D423E6DCCB341 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		77787334C7C3D7AE3373FAE9C9B0A1E4 /* Pods-NivikiSocial-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NivikiSocial-frameworks.sh"; sourceTree = "<group>"; };
+		7DC58F15177446B81CAC8D7DD8B45219 /* Pods-NivikiSocialUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NivikiSocialUITests.modulemap"; sourceTree = "<group>"; };
+		85745E7D437459B31A5864C3F32C9317 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		8C18A8BB696F3F1C10374471EA79B546 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3178136431CDB917739D7B57DAD724 /* Pods-NivikiSocialTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NivikiSocialTests-umbrella.h"; sourceTree = "<group>"; };
+		A4C659311A178AC4A39F83BC18E7FAD1 /* Pods-NivikiSocialUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NivikiSocialUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6DDF2C3C65F6F9CE5472DAAB23A125C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7DA2983B040A4DCD6EEBDC74CCB1D34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA41C94127C0B8837B98EAD23B51CDC2 /* Pods-NivikiSocial-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NivikiSocial-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B07914CE61B45E2BCCE466D2E4FCE05F /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		B4681D183129176945E0774B09EC4ECC /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		B698A0C2172E00376DC4085131DC2324 /* Pods-NivikiSocial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NivikiSocial.modulemap"; sourceTree = "<group>"; };
+		B6BC878BB90351ED02098BB11D0976A8 /* Pods-NivikiSocialTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NivikiSocialTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDD56CFECAFF17CD8746DFDE5EF499A9 /* Pods_NivikiSocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NivikiSocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C4E17876731F8104DACC14E6418532 /* Pods-NivikiSocial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NivikiSocial-dummy.m"; sourceTree = "<group>"; };
+		CC5164D315469702D50A545A0DD5026B /* Pods-NivikiSocialUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NivikiSocialUITests-dummy.m"; sourceTree = "<group>"; };
+		CE7858F89D77D798441CE082B185EFE2 /* Pods-NivikiSocialUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NivikiSocialUITests-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D21FB05B62FA05344872B3C3E0C56B8F /* Pods-NivikiSocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NivikiSocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		D87393CAA964C4D51C935B2A81852AA3 /* Pods-NivikiSocialTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NivikiSocialTests-dummy.m"; sourceTree = "<group>"; };
+		E70233C9F873B3E9E12D5B06FCA80A26 /* Pods-NivikiSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NivikiSocial.release.xcconfig"; sourceTree = "<group>"; };
+		F49019F577398D68950086920B7B7783 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		F8F28BA0ACC2C8D1A18E0EC12DDF6C37 /* Pods-NivikiSocial-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NivikiSocial-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC813CD7C1A1546D6C740F8552B13ACA /* Pods-NivikiSocialUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NivikiSocialUITests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AB6E38567A923F9D8116F225603457B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970DB30F0F71A17A0E1E55DCC3E9210D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875E9799A7A9A8C0EED3AF9CD597BF2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C64A0A4650DCFA301850A076ACD552 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8806794E3C164FDCBBD0D8F22B4622F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91CF4BBCAEF624DD2FD9D003F870C07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DE93CB1A1751D6B5E41CC16E30DBF8 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				4DD84742871A6446D9EC6D3556EE9043 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		148660278C4A5A933DDC3E12449C9AA2 /* Pods-NivikiSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6DDF2C3C65F6F9CE5472DAAB23A125C /* Info.plist */,
+				7DC58F15177446B81CAC8D7DD8B45219 /* Pods-NivikiSocialUITests.modulemap */,
+				A4C659311A178AC4A39F83BC18E7FAD1 /* Pods-NivikiSocialUITests-acknowledgements.markdown */,
+				456D72B3DEEC8D62619F911557A52D0E /* Pods-NivikiSocialUITests-acknowledgements.plist */,
+				CC5164D315469702D50A545A0DD5026B /* Pods-NivikiSocialUITests-dummy.m */,
+				FC813CD7C1A1546D6C740F8552B13ACA /* Pods-NivikiSocialUITests-frameworks.sh */,
+				710AEBBBD0E45EDE9A26E767C35127C8 /* Pods-NivikiSocialUITests-resources.sh */,
+				CE7858F89D77D798441CE082B185EFE2 /* Pods-NivikiSocialUITests-umbrella.h */,
+				3BC65CAE746E7FE76B65727F5D25B230 /* Pods-NivikiSocialUITests.debug.xcconfig */,
+				4354B0DC6A62B28BBDFC193917823932 /* Pods-NivikiSocialUITests.release.xcconfig */,
+			);
+			name = "Pods-NivikiSocialUITests";
+			path = "Target Support Files/Pods-NivikiSocialUITests";
+			sourceTree = "<group>";
+		};
+		21A2307D874FEEC594C1DE3A08597D6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00AB2281BE2AA3FAD4185197782FBA4A /* Pods_NivikiSocial.framework */,
+				51FF6089716E6905B2D5300C62E3FF6D /* Pods_NivikiSocialTests.framework */,
+				BDD56CFECAFF17CD8746DFDE5EF499A9 /* Pods_NivikiSocialUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C152434E318BDFC6AAA4637635C92CB /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				34A0684B5AC997FEE0A96FA25B4950BF /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		34A0684B5AC997FEE0A96FA25B4950BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0690B02DA41066CE1F1798BCF565E222 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		453639F77B3EB6B4CF18A5FD54CDAE71 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				48FDA7781B212532661B34258760D0BC /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		48FDA7781B212532661B34258760D0BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49019F577398D68950086920B7B7783 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F920E4F2284986B1B5E7402F7C47F28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D1BFA7A67A8585AE05FF255BC5A1030 /* Pods-NivikiSocial */,
+				E0743EA563291622B85AD676309845AD /* Pods-NivikiSocialTests */,
+				148660278C4A5A933DDC3E12449C9AA2 /* Pods-NivikiSocialUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6260985D180B8FEB7FC63E1953C6BB6B /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C116C31BAE424153AD00D6BFFC07ED1C /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		6580F1087CB9A5ADBF554447B2181AC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4681D183129176945E0774B09EC4ECC /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D1BFA7A67A8585AE05FF255BC5A1030 /* Pods-NivikiSocial */ = {
+			isa = PBXGroup;
+			children = (
+				1874DB862A2E51D732F2CF3569FD9FE0 /* Info.plist */,
+				B698A0C2172E00376DC4085131DC2324 /* Pods-NivikiSocial.modulemap */,
+				AA41C94127C0B8837B98EAD23B51CDC2 /* Pods-NivikiSocial-acknowledgements.markdown */,
+				F8F28BA0ACC2C8D1A18E0EC12DDF6C37 /* Pods-NivikiSocial-acknowledgements.plist */,
+				C5C4E17876731F8104DACC14E6418532 /* Pods-NivikiSocial-dummy.m */,
+				77787334C7C3D7AE3373FAE9C9B0A1E4 /* Pods-NivikiSocial-frameworks.sh */,
+				46AAA5939E5C1652670415EB134EFB96 /* Pods-NivikiSocial-resources.sh */,
+				0180B97A4CFB37031AD8DDEA292B7E3E /* Pods-NivikiSocial-umbrella.h */,
+				17AE2FD0E3983A4D1450C5D0674C3A5B /* Pods-NivikiSocial.debug.xcconfig */,
+				E70233C9F873B3E9E12D5B06FCA80A26 /* Pods-NivikiSocial.release.xcconfig */,
+			);
+			name = "Pods-NivikiSocial";
+			path = "Target Support Files/Pods-NivikiSocial";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D747591A8FEEFD8CD1042642C4C3A35F /* Pods */,
+				21A2307D874FEEC594C1DE3A08597D6B /* Products */,
+				4F920E4F2284986B1B5E7402F7C47F28 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		863D8178306DF5EA35115F54FE9DB8DC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				02DE93CB1A1751D6B5E41CC16E30DBF8 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		89C482C500CAC5298583C8F231C91FDB /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F4165ED857874553CD1CDC90E0ECC575 /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		A6AD1E8361F23DD7FC20CF1F5F6193F0 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA74169EA2E244B7BF9E5C173AC728CD /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		BA74169EA2E244B7BF9E5C173AC728CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B07914CE61B45E2BCCE466D2E4FCE05F /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCE09D42006DAF8C572748336E33FF2D /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				ED95977A669984D9A1D4265992675740 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		C0EB6B9D509FDACF21C6699D1A63AED1 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				74221A11F5559623FF3D423E6DCCB341 /* FIRInstanceID.h */,
+				D0DC1400A58B4FBDEC03D4DA33080DA1 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		C116C31BAE424153AD00D6BFFC07ED1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ECCE3402153259021AF24C923F9DB31 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D019297FC3F595D3EECFADA365A2C945 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D9872C8C9F7733E75624E2EFACAC9A3B /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		D0DC1400A58B4FBDEC03D4DA33080DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C18A8BB696F3F1C10374471EA79B546 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D747591A8FEEFD8CD1042642C4C3A35F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				863D8178306DF5EA35115F54FE9DB8DC /* Firebase */,
+				2C152434E318BDFC6AAA4637635C92CB /* FirebaseAnalytics */,
+				E823C0D24FE746E423D1637619881E01 /* FirebaseAuth */,
+				BCE09D42006DAF8C572748336E33FF2D /* FirebaseDatabase */,
+				C0EB6B9D509FDACF21C6699D1A63AED1 /* FirebaseInstanceID */,
+				EA217487184645F1182E6A15A6593A6F /* FirebaseStorage */,
+				A6AD1E8361F23DD7FC20CF1F5F6193F0 /* GoogleInterchangeUtilities */,
+				D019297FC3F595D3EECFADA365A2C945 /* GoogleNetworkingUtilities */,
+				89C482C500CAC5298583C8F231C91FDB /* GoogleParsingUtilities */,
+				453639F77B3EB6B4CF18A5FD54CDAE71 /* GoogleSymbolUtilities */,
+				6260985D180B8FEB7FC63E1953C6BB6B /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9872C8C9F7733E75624E2EFACAC9A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28E068939D9EE20C8EF10B07D3E31F4C /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0743EA563291622B85AD676309845AD /* Pods-NivikiSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7DA2983B040A4DCD6EEBDC74CCB1D34 /* Info.plist */,
+				26AC8864A615D4CCBB2C286CCE2EE8B7 /* Pods-NivikiSocialTests.modulemap */,
+				B6BC878BB90351ED02098BB11D0976A8 /* Pods-NivikiSocialTests-acknowledgements.markdown */,
+				48363D56FA014783FF609410AAF19644 /* Pods-NivikiSocialTests-acknowledgements.plist */,
+				D87393CAA964C4D51C935B2A81852AA3 /* Pods-NivikiSocialTests-dummy.m */,
+				3D93731212DBA6EF0BF2F4A1ECB2FC3B /* Pods-NivikiSocialTests-frameworks.sh */,
+				532611F90EAAA51BF079FFAB530AC8B0 /* Pods-NivikiSocialTests-resources.sh */,
+				9E3178136431CDB917739D7B57DAD724 /* Pods-NivikiSocialTests-umbrella.h */,
+				289FB5EA98E12699C5292504028DE73A /* Pods-NivikiSocialTests.debug.xcconfig */,
+				D21FB05B62FA05344872B3C3E0C56B8F /* Pods-NivikiSocialTests.release.xcconfig */,
+			);
+			name = "Pods-NivikiSocialTests";
+			path = "Target Support Files/Pods-NivikiSocialTests";
+			sourceTree = "<group>";
+		};
+		E823C0D24FE746E423D1637619881E01 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				6580F1087CB9A5ADBF554447B2181AC5 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		EA217487184645F1182E6A15A6593A6F /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				FBA08AD981711F6DFD38019600C22D7D /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		ED95977A669984D9A1D4265992675740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1815D2A3010404CD543E84C5268BCABC /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4165ED857874553CD1CDC90E0ECC575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63DDFEFC1970DD137BD9F7846F09ECAB /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBA08AD981711F6DFD38019600C22D7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85745E7D437459B31A5864C3F32C9317 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48DC688E8B4E2EE266D180376C8768F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6267C9FAE8A7A9202579A72EE6CABE9A /* Pods-NivikiSocialUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		612767066BA6CDACFB8FECA67C4230F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE36A565DF1C478FC239C96BFC67F660 /* Pods-NivikiSocial-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A47AAA4D3990646B84A2A931F8E5DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD451EF37F6F4A3C0010009499C90BDC /* Pods-NivikiSocialTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0814C2284B12E89BC1F8DFA41E8C917E /* Pods-NivikiSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3128CDC0BA8858279F8DF4B262E805E5 /* Build configuration list for PBXNativeTarget "Pods-NivikiSocialUITests" */;
+			buildPhases = (
+				A06B198333328E953459AB1CFC51D4A4 /* Sources */,
+				875E9799A7A9A8C0EED3AF9CD597BF2B /* Frameworks */,
+				48DC688E8B4E2EE266D180376C8768F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NivikiSocialUITests";
+			productName = "Pods-NivikiSocialUITests";
+			productReference = BDD56CFECAFF17CD8746DFDE5EF499A9 /* Pods_NivikiSocialUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		24CED09EC65E52D419764FE0667D9525 /* Pods-NivikiSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8031C60677A359ECB51A08B7120557C /* Build configuration list for PBXNativeTarget "Pods-NivikiSocial" */;
+			buildPhases = (
+				988D8BAFC24577807ADD091482EBBFE1 /* Sources */,
+				7AB6E38567A923F9D8116F225603457B /* Frameworks */,
+				612767066BA6CDACFB8FECA67C4230F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NivikiSocial";
+			productName = "Pods-NivikiSocial";
+			productReference = 00AB2281BE2AA3FAD4185197782FBA4A /* Pods_NivikiSocial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74A795295FC1E0F9BE909C47BEB27A9C /* Pods-NivikiSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025A5A2371DCCC10F322E38F35241A32 /* Build configuration list for PBXNativeTarget "Pods-NivikiSocialTests" */;
+			buildPhases = (
+				F1642C615915C9533A55B0DA20257BBC /* Sources */,
+				8806794E3C164FDCBBD0D8F22B4622F8 /* Frameworks */,
+				76A47AAA4D3990646B84A2A931F8E5DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NivikiSocialTests";
+			productName = "Pods-NivikiSocialTests";
+			productReference = 51FF6089716E6905B2D5300C62E3FF6D /* Pods_NivikiSocialTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 21A2307D874FEEC594C1DE3A08597D6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CED09EC65E52D419764FE0667D9525 /* Pods-NivikiSocial */,
+				74A795295FC1E0F9BE909C47BEB27A9C /* Pods-NivikiSocialTests */,
+				0814C2284B12E89BC1F8DFA41E8C917E /* Pods-NivikiSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		988D8BAFC24577807ADD091482EBBFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D542340402AAA44BAD0ACB418696C77 /* Pods-NivikiSocial-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A06B198333328E953459AB1CFC51D4A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476A999A92FBDF4CA21AE59FC05D7623 /* Pods-NivikiSocialUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1642C615915C9533A55B0DA20257BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ED9F185A0461FB0731AC74757F9E1A /* Pods-NivikiSocialTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		17F92C81E61F84A91FB3451C735A6999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21FB05B62FA05344872B3C3E0C56B8F /* Pods-NivikiSocialTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NivikiSocialTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NivikiSocialTests/Pods-NivikiSocialTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NivikiSocialTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25B7651575913BC59187205B7CD01476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC65CAE746E7FE76B65727F5D25B230 /* Pods-NivikiSocialUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NivikiSocialUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NivikiSocialUITests/Pods-NivikiSocialUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NivikiSocialUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D00D46CD40CCA17EEF39944D625457C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70233C9F873B3E9E12D5B06FCA80A26 /* Pods-NivikiSocial.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NivikiSocial/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NivikiSocial/Pods-NivikiSocial.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NivikiSocial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F82BB6481F459C69A0FAB1426BD4422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4354B0DC6A62B28BBDFC193917823932 /* Pods-NivikiSocialUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NivikiSocialUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NivikiSocialUITests/Pods-NivikiSocialUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NivikiSocialUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFC265D94445A4D1091477A0747E7C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AE2FD0E3983A4D1450C5D0674C3A5B /* Pods-NivikiSocial.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NivikiSocial/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NivikiSocial/Pods-NivikiSocial.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NivikiSocial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E81237B9EAAF5E7EFD9BB8138CE461DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289FB5EA98E12699C5292504028DE73A /* Pods-NivikiSocialTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NivikiSocialTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NivikiSocialTests/Pods-NivikiSocialTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NivikiSocialTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025A5A2371DCCC10F322E38F35241A32 /* Build configuration list for PBXNativeTarget "Pods-NivikiSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81237B9EAAF5E7EFD9BB8138CE461DA /* Debug */,
+				17F92C81E61F84A91FB3451C735A6999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3128CDC0BA8858279F8DF4B262E805E5 /* Build configuration list for PBXNativeTarget "Pods-NivikiSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B7651575913BC59187205B7CD01476 /* Debug */,
+				9F82BB6481F459C69A0FAB1426BD4422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8031C60677A359ECB51A08B7120557C /* Build configuration list for PBXNativeTarget "Pods-NivikiSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC265D94445A4D1091477A0747E7C5A /* Debug */,
+				3D00D46CD40CCA17EEF39944D625457C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
