@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21260861D80008400F78754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21260851D80008400F78754 /* AppDelegate.swift */; };
+		D21260881D80008400F78754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21260871D80008400F78754 /* ViewController.swift */; };
+		D212608B1D80008400F78754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21260891D80008400F78754 /* Main.storyboard */; };
+		D212608D1D80008400F78754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D212608C1D80008400F78754 /* Assets.xcassets */; };
+		D21260901D80008400F78754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D212608E1D80008400F78754 /* LaunchScreen.storyboard */; };
+		D212609B1D80008400F78754 /* NivikiSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D212609A1D80008400F78754 /* NivikiSocialTests.swift */; };
+		D21260A61D80008400F78754 /* NivikiSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21260A51D80008400F78754 /* NivikiSocialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D21260971D80008400F78754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D212607A1D80008300F78754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21260811D80008300F78754;
+			remoteInfo = NivikiSocial;
+		};
+		D21260A21D80008400F78754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D212607A1D80008300F78754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21260811D80008300F78754;
+			remoteInfo = NivikiSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D21260821D80008400F78754 /* NivikiSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NivikiSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21260851D80008400F78754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D21260871D80008400F78754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D212608A1D80008400F78754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D212608C1D80008400F78754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D212608F1D80008400F78754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D21260911D80008400F78754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21260961D80008400F78754 /* NivikiSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NivikiSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D212609A1D80008400F78754 /* NivikiSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivikiSocialTests.swift; sourceTree = "<group>"; };
+		D212609C1D80008400F78754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21260A11D80008400F78754 /* NivikiSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NivikiSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21260A51D80008400F78754 /* NivikiSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivikiSocialUITests.swift; sourceTree = "<group>"; };
+		D21260A71D80008400F78754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D212607F1D80008300F78754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21260931D80008400F78754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D212609E1D80008400F78754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21260791D80008300F78754 = {
+			isa = PBXGroup;
+			children = (
+				D21260841D80008400F78754 /* NivikiSocial */,
+				D21260991D80008400F78754 /* NivikiSocialTests */,
+				D21260A41D80008400F78754 /* NivikiSocialUITests */,
+				D21260831D80008400F78754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D21260831D80008400F78754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D21260821D80008400F78754 /* NivikiSocial.app */,
+				D21260961D80008400F78754 /* NivikiSocialTests.xctest */,
+				D21260A11D80008400F78754 /* NivikiSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D21260841D80008400F78754 /* NivikiSocial */ = {
+			isa = PBXGroup;
+			children = (
+				D21260851D80008400F78754 /* AppDelegate.swift */,
+				D21260871D80008400F78754 /* ViewController.swift */,
+				D21260891D80008400F78754 /* Main.storyboard */,
+				D212608C1D80008400F78754 /* Assets.xcassets */,
+				D212608E1D80008400F78754 /* LaunchScreen.storyboard */,
+				D21260911D80008400F78754 /* Info.plist */,
+			);
+			path = NivikiSocial;
+			sourceTree = "<group>";
+		};
+		D21260991D80008400F78754 /* NivikiSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				D212609A1D80008400F78754 /* NivikiSocialTests.swift */,
+				D212609C1D80008400F78754 /* Info.plist */,
+			);
+			path = NivikiSocialTests;
+			sourceTree = "<group>";
+		};
+		D21260A41D80008400F78754 /* NivikiSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D21260A51D80008400F78754 /* NivikiSocialUITests.swift */,
+				D21260A71D80008400F78754 /* Info.plist */,
+			);
+			path = NivikiSocialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D21260811D80008300F78754 /* NivikiSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21260AA1D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocial" */;
+			buildPhases = (
+				D212607E1D80008300F78754 /* Sources */,
+				D212607F1D80008300F78754 /* Frameworks */,
+				D21260801D80008300F78754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NivikiSocial;
+			productName = NivikiSocial;
+			productReference = D21260821D80008400F78754 /* NivikiSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D21260951D80008400F78754 /* NivikiSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21260AD1D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocialTests" */;
+			buildPhases = (
+				D21260921D80008400F78754 /* Sources */,
+				D21260931D80008400F78754 /* Frameworks */,
+				D21260941D80008400F78754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21260981D80008400F78754 /* PBXTargetDependency */,
+			);
+			name = NivikiSocialTests;
+			productName = NivikiSocialTests;
+			productReference = D21260961D80008400F78754 /* NivikiSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D21260A01D80008400F78754 /* NivikiSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21260B01D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocialUITests" */;
+			buildPhases = (
+				D212609D1D80008400F78754 /* Sources */,
+				D212609E1D80008400F78754 /* Frameworks */,
+				D212609F1D80008400F78754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21260A31D80008400F78754 /* PBXTargetDependency */,
+			);
+			name = NivikiSocialUITests;
+			productName = NivikiSocialUITests;
+			productReference = D21260A11D80008400F78754 /* NivikiSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D212607A1D80008300F78754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Khoa;
+				TargetAttributes = {
+					D21260811D80008300F78754 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WG937QNZTU;
+						ProvisioningStyle = Automatic;
+					};
+					D21260951D80008400F78754 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WG937QNZTU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D21260811D80008300F78754;
+					};
+					D21260A01D80008400F78754 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WG937QNZTU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D21260811D80008300F78754;
+					};
+				};
+			};
+			buildConfigurationList = D212607D1D80008300F78754 /* Build configuration list for PBXProject "NivikiSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D21260791D80008300F78754;
+			productRefGroup = D21260831D80008400F78754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21260811D80008300F78754 /* NivikiSocial */,
+				D21260951D80008400F78754 /* NivikiSocialTests */,
+				D21260A01D80008400F78754 /* NivikiSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D21260801D80008300F78754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21260901D80008400F78754 /* LaunchScreen.storyboard in Resources */,
+				D212608D1D80008400F78754 /* Assets.xcassets in Resources */,
+				D212608B1D80008400F78754 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21260941D80008400F78754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D212609F1D80008400F78754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D212607E1D80008300F78754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21260881D80008400F78754 /* ViewController.swift in Sources */,
+				D21260861D80008400F78754 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21260921D80008400F78754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D212609B1D80008400F78754 /* NivikiSocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D212609D1D80008400F78754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21260A61D80008400F78754 /* NivikiSocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D21260981D80008400F78754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D21260811D80008300F78754 /* NivikiSocial */;
+			targetProxy = D21260971D80008400F78754 /* PBXContainerItemProxy */;
+		};
+		D21260A31D80008400F78754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D21260811D80008300F78754 /* NivikiSocial */;
+			targetProxy = D21260A21D80008400F78754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D21260891D80008400F78754 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D212608A1D80008400F78754 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D212608E1D80008400F78754 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D212608F1D80008400F78754 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D21260A81D80008400F78754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D21260A91D80008400F78754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D21260AB1D80008400F78754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WG937QNZTU;
+				INFOPLIST_FILE = NivikiSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Khoa.NivikiSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D21260AC1D80008400F78754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WG937QNZTU;
+				INFOPLIST_FILE = NivikiSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Khoa.NivikiSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D21260AE1D80008400F78754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WG937QNZTU;
+				INFOPLIST_FILE = NivikiSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Khoa.NivikiSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NivikiSocial.app/NivikiSocial";
+			};
+			name = Debug;
+		};
+		D21260AF1D80008400F78754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WG937QNZTU;
+				INFOPLIST_FILE = NivikiSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Khoa.NivikiSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NivikiSocial.app/NivikiSocial";
+			};
+			name = Release;
+		};
+		D21260B11D80008400F78754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WG937QNZTU;
+				INFOPLIST_FILE = NivikiSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Khoa.NivikiSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NivikiSocial;
+			};
+			name = Debug;
+		};
+		D21260B21D80008400F78754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WG937QNZTU;
+				INFOPLIST_FILE = NivikiSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Khoa.NivikiSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NivikiSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D212607D1D80008300F78754 /* Build configuration list for PBXProject "NivikiSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21260A81D80008400F78754 /* Debug */,
+				D21260A91D80008400F78754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21260AA1D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21260AB1D80008400F78754 /* Debug */,
+				D21260AC1D80008400F78754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D21260AD1D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21260AE1D80008400F78754 /* Debug */,
+				D21260AF1D80008400F78754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D21260B01D80008400F78754 /* Build configuration list for PBXNativeTarget "NivikiSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21260B11D80008400F78754 /* Debug */,
+				D21260B21D80008400F78754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D212607A1D80008300F78754 /* Project object */;
+}
