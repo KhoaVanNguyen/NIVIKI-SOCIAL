@@ -46,5 +46,31 @@
 		<string>OpenSans-Bold.ttf</string>
 		<string>From Cartoon Blocks.ttf</string>
 	</array>
+	
+    <key>FirebaseAppDelegateProxyEnabled</key>
+    <string>NO</string>
+    
+    
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb407287619659220</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>407287619659220</string>
+    <key>FacebookDisplayName</key>
+    <string>NIVIKI SOCIAL</string>
+    
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fb-messenger-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
+    </array>
 </dict>
 </plist>

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C8A406A16C2E7980EDD14B9 /* Pods_NivikiSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7917AFF1266A279FD806F577 /* Pods_NivikiSocial.framework */; };
+		0C4A6F2014DF388CE91CF24C /* Pods_NivikiSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7917AFF1266A279FD806F577 /* Pods_NivikiSocial.framework */; };
 		9DCBED2A54DC8F34178ECFBB /* Pods_NivikiSocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5847D237C60006A8D828626 /* Pods_NivikiSocialTests.framework */; };
 		D21260861D80008400F78754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21260851D80008400F78754 /* AppDelegate.swift */; };
 		D21260881D80008400F78754 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21260871D80008400F78754 /* SignInVC.swift */; };
@@ -16,7 +16,11 @@
 		D21260901D80008400F78754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D212608E1D80008400F78754 /* LaunchScreen.storyboard */; };
 		D212609B1D80008400F78754 /* NivikiSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D212609A1D80008400F78754 /* NivikiSocialTests.swift */; };
 		D21260A61D80008400F78754 /* NivikiSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21260A51D80008400F78754 /* NivikiSocialUITests.swift */; };
-		D21260B41D8000BC00F78754 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D21260B31D8000BC00F78754 /* GoogleService-Info.plist */; };
+		D23A923E1DBFB08800649585 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DF1AA21DBFABDF00BF7DDF /* Bolts.framework */; };
+		D23A923F1DBFB08800649585 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DF1AA31DBFABDF00BF7DDF /* FBSDKCoreKit.framework */; };
+		D23A92401DBFB08800649585 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DF1AA01DBFA97100BF7DDF /* FBSDKLoginKit.framework */; };
+		D23A92411DBFB08800649585 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DF1AA41DBFABDF00BF7DDF /* FBSDKShareKit.framework */; };
+		D23A92461DBFBCAD00649585 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D23A92451DBFBCAD00649585 /* GoogleService-Info.plist */; };
 		D2D3BFD21D8006730026992C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2D3BFC71D8006730026992C /* LICENSE.txt */; };
 		D2D3BFD31D8006730026992C /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2D3BFC81D8006730026992C /* OpenSans-Bold.ttf */; };
 		D2D3BFD41D8006730026992C /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2D3BFC91D8006730026992C /* OpenSans-BoldItalic.ttf */; };
@@ -30,6 +34,7 @@
 		D2D3BFDC1D8006730026992C /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2D3BFD11D8006730026992C /* OpenSans-SemiboldItalic.ttf */; };
 		D2D3BFDF1D8008130026992C /* From Cartoon Blocks.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D2D3BFDD1D8008130026992C /* From Cartoon Blocks.rtf */; };
 		D2D3BFE01D8008130026992C /* From Cartoon Blocks.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2D3BFDE1D8008130026992C /* From Cartoon Blocks.ttf */; };
+		D2D3BFE21D800DC00026992C /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D3BFE11D800DC00026992C /* RoundedImage.swift */; };
 		EDF2C97A8A51F9D1B9A6D845 /* Pods_NivikiSocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04C0DFADF2ABBAFB4142A2D /* Pods_NivikiSocialUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,7 +75,8 @@
 		D21260A11D80008400F78754 /* NivikiSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NivikiSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21260A51D80008400F78754 /* NivikiSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivikiSocialUITests.swift; sourceTree = "<group>"; };
 		D21260A71D80008400F78754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D21260B31D8000BC00F78754 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D23A92421DBFBADF00649585 /* NivikiSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NivikiSocial.entitlements; sourceTree = "<group>"; };
+		D23A92451DBFBCAD00649585 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D2D3BFC71D8006730026992C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		D2D3BFC81D8006730026992C /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		D2D3BFC91D8006730026992C /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -84,6 +90,11 @@
 		D2D3BFD11D8006730026992C /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 		D2D3BFDD1D8008130026992C /* From Cartoon Blocks.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "From Cartoon Blocks.rtf"; sourceTree = "<group>"; };
 		D2D3BFDE1D8008130026992C /* From Cartoon Blocks.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "From Cartoon Blocks.ttf"; sourceTree = "<group>"; };
+		D2D3BFE11D800DC00026992C /* RoundedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		D2DF1AA01DBFA97100BF7DDF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		D2DF1AA21DBFABDF00BF7DDF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D2DF1AA31DBFABDF00BF7DDF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		D2DF1AA41DBFABDF00BF7DDF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		DDA969E5AA7D61EF899B8F2A /* Pods-NivikiSocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NivikiSocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NivikiSocialUITests/Pods-NivikiSocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E04C0DFADF2ABBAFB4142A2D /* Pods_NivikiSocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NivikiSocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB95D4AA7F06816C4A69886 /* Pods-NivikiSocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NivikiSocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NivikiSocialUITests/Pods-NivikiSocialUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +105,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8A406A16C2E7980EDD14B9 /* Pods_NivikiSocial.framework in Frameworks */,
+				D23A923E1DBFB08800649585 /* Bolts.framework in Frameworks */,
+				D23A923F1DBFB08800649585 /* FBSDKCoreKit.framework in Frameworks */,
+				D23A92401DBFB08800649585 /* FBSDKLoginKit.framework in Frameworks */,
+				D23A92411DBFB08800649585 /* FBSDKShareKit.framework in Frameworks */,
+				0C4A6F2014DF388CE91CF24C /* Pods_NivikiSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +135,10 @@
 		02F262D50543D697458E6D96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D2DF1AA21DBFABDF00BF7DDF /* Bolts.framework */,
+				D2DF1AA31DBFABDF00BF7DDF /* FBSDKCoreKit.framework */,
+				D2DF1AA41DBFABDF00BF7DDF /* FBSDKShareKit.framework */,
+				D2DF1AA01DBFA97100BF7DDF /* FBSDKLoginKit.framework */,
 				7917AFF1266A279FD806F577 /* Pods_NivikiSocial.framework */,
 				B5847D237C60006A8D828626 /* Pods_NivikiSocialTests.framework */,
 				E04C0DFADF2ABBAFB4142A2D /* Pods_NivikiSocialUITests.framework */,
@@ -165,6 +184,7 @@
 		D21260841D80008400F78754 /* NivikiSocial */ = {
 			isa = PBXGroup;
 			children = (
+				D23A92421DBFBADF00649585 /* NivikiSocial.entitlements */,
 				D2D3BFC61D80066B0026992C /* Resources */,
 				D21260851D80008400F78754 /* AppDelegate.swift */,
 				D2D3BFC51D80054C0026992C /* Storyboard */,
@@ -172,8 +192,8 @@
 				D2D3BFC31D8002940026992C /* View */,
 				D2D3BFC21D80028F0026992C /* Model */,
 				D212608C1D80008400F78754 /* Assets.xcassets */,
+				D23A92451DBFBCAD00649585 /* GoogleService-Info.plist */,
 				D21260911D80008400F78754 /* Info.plist */,
-				D21260B31D8000BC00F78754 /* GoogleService-Info.plist */,
 			);
 			path = NivikiSocial;
 			sourceTree = "<group>";
@@ -206,6 +226,7 @@
 		D2D3BFC31D8002940026992C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D2D3BFE11D800DC00026992C /* RoundedImage.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -326,12 +347,16 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = WG937QNZTU;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					D21260951D80008400F78754 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = WG937QNZTU;
 						ProvisioningStyle = Automatic;
-						TestTargetID = D21260811D80008300F78754;
 					};
 					D21260A01D80008400F78754 = {
 						CreatedOnToolsVersion = 8.0;
@@ -370,7 +395,6 @@
 				D2D3BFDC1D8006730026992C /* OpenSans-SemiboldItalic.ttf in Resources */,
 				D2D3BFD61D8006730026992C /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				D2D3BFD91D8006730026992C /* OpenSans-LightItalic.ttf in Resources */,
-				D21260B41D8000BC00F78754 /* GoogleService-Info.plist in Resources */,
 				D2D3BFD71D8006730026992C /* OpenSans-Italic.ttf in Resources */,
 				D2D3BFD31D8006730026992C /* OpenSans-Bold.ttf in Resources */,
 				D2D3BFD51D8006730026992C /* OpenSans-ExtraBold.ttf in Resources */,
@@ -379,6 +403,7 @@
 				D2D3BFDF1D8008130026992C /* From Cartoon Blocks.rtf in Resources */,
 				D212608D1D80008400F78754 /* Assets.xcassets in Resources */,
 				D2D3BFD21D8006730026992C /* LICENSE.txt in Resources */,
+				D23A92461DBFBCAD00649585 /* GoogleService-Info.plist in Resources */,
 				D2D3BFD81D8006730026992C /* OpenSans-Light.ttf in Resources */,
 				D2D3BFDA1D8006730026992C /* OpenSans-Regular.ttf in Resources */,
 				D2D3BFDB1D8006730026992C /* OpenSans-Semibold.ttf in Resources */,
@@ -545,6 +570,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D3BFE21D800DC00026992C /* RoundedImage.swift in Sources */,
 				D21260881D80008400F78754 /* SignInVC.swift in Sources */,
 				D21260861D80008400F78754 /* AppDelegate.swift in Sources */,
 			);
@@ -641,7 +667,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -685,7 +711,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -699,12 +725,20 @@
 			baseConfigurationReference = 8C25AD468FE93615BD851D86 /* Pods-NivikiSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NivikiSocial/NivikiSocial.entitlements;
 				DEVELOPMENT_TEAM = WG937QNZTU;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NivikiSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Khoa.NivikiSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -713,12 +747,20 @@
 			baseConfigurationReference = 5BD84F38D642E454DA30AF84 /* Pods-NivikiSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NivikiSocial/NivikiSocial.entitlements;
 				DEVELOPMENT_TEAM = WG937QNZTU;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NivikiSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Khoa.NivikiSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -727,14 +769,12 @@
 			baseConfigurationReference = 2651AAD1EE28779447BE4624 /* Pods-NivikiSocialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = WG937QNZTU;
 				INFOPLIST_FILE = NivikiSocialTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Khoa.NivikiSocialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NivikiSocial.app/NivikiSocial";
 			};
 			name = Debug;
 		};
@@ -743,14 +783,12 @@
 			baseConfigurationReference = 672E03FFACC66B7E19116655 /* Pods-NivikiSocialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = WG937QNZTU;
 				INFOPLIST_FILE = NivikiSocialTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Khoa.NivikiSocialTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NivikiSocial.app/NivikiSocial";
 			};
 			name = Release;
 		};

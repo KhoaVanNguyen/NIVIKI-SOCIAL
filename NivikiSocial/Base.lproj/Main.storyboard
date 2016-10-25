@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11535.1" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11523"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,7 +21,7 @@
         <!--Sign InVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SignInVC" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SignInVC" customModule="NivikiSocial" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -28,8 +31,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="09g-Oi-zDE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NIVIKI.COM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKC-Cu-dso">
+                                        <rect key="frame" x="80" y="4" width="215" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="XZ8-gK-AMc"/>
                                         </constraints>
@@ -38,6 +43,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sharing is Learning" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3O-pp-huw">
+                                        <rect key="frame" x="22" y="71" width="331" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="Xjn-Ra-iAQ"/>
                                         </constraints>
@@ -58,8 +64,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IkT-bz-F9T">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you don't have an account, it will automatically create a one for you" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWV-9a-69q">
+                                        <rect key="frame" x="20" y="4" width="335" height="42"/>
                                         <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -75,6 +83,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the login method" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zL-82-aIa">
+                                <rect key="frame" x="22" y="108" width="331" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="sEB-hC-cra"/>
                                 </constraints>
@@ -82,7 +91,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f" translatesAutoresizingMaskIntoConstraints="NO" id="GWv-Z1-JNI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f" translatesAutoresizingMaskIntoConstraints="NO" id="GWv-Z1-JNI" customClass="RoundedImage" customModule="NivikiSocial" customModuleProvider="target">
+                                <rect key="frame" x="80.5" y="159" width="214" height="138"/>
                                 <color key="backgroundColor" red="0.086147231543624164" green="0.3411764705882353" blue="0.68773594798657722" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="138" id="9b2-Bh-Ah1"/>
@@ -90,18 +100,22 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vuB-uM-FM6">
+                                <rect key="frame" x="20" y="337" width="335" height="130"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e4Y-B3-Q2a">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Hp-L2-hGD">
+                                        <rect key="frame" x="0.0" y="50" width="335" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sez-VS-LAt">
+                                        <rect key="frame" x="0.0" y="100" width="335" height="30"/>
                                         <color key="backgroundColor" red="1" green="0.23921568627450979" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
@@ -112,6 +126,12 @@
                                     <constraint firstItem="Sez-VS-LAt" firstAttribute="top" secondItem="4Hp-L2-hGD" secondAttribute="bottom" constant="20" id="OLd-TI-32F"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEC-aY-8T2">
+                                <rect key="frame" x="80.5" y="159" width="214" height="138"/>
+                                <connections>
+                                    <action selector="fbLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AHb-y5-720"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -122,13 +142,17 @@
                             <constraint firstAttribute="trailing" secondItem="vuB-uM-FM6" secondAttribute="trailing" constant="20" id="E8l-8W-AEg"/>
                             <constraint firstItem="09g-Oi-zDE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HMY-TT-Hu7"/>
                             <constraint firstItem="3zL-82-aIa" firstAttribute="top" secondItem="09g-Oi-zDE" secondAttribute="bottom" constant="8" id="KG0-0A-WGM"/>
+                            <constraint firstItem="uEC-aY-8T2" firstAttribute="centerY" secondItem="GWv-Z1-JNI" secondAttribute="centerY" id="Kgj-n7-I7R"/>
                             <constraint firstAttribute="trailing" secondItem="IkT-bz-F9T" secondAttribute="trailing" id="Mc4-af-f7T"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3zL-82-aIa" secondAttribute="trailing" constant="6" id="RtV-Iq-R2C"/>
                             <constraint firstItem="IkT-bz-F9T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UZb-O2-0hi"/>
                             <constraint firstItem="09g-Oi-zDE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hEF-g7-fYl"/>
                             <constraint firstItem="GWv-Z1-JNI" firstAttribute="top" secondItem="3zL-82-aIa" secondAttribute="bottom" constant="30" id="hr5-dC-oo5"/>
+                            <constraint firstItem="uEC-aY-8T2" firstAttribute="width" secondItem="GWv-Z1-JNI" secondAttribute="width" id="kvC-pL-udE"/>
+                            <constraint firstItem="uEC-aY-8T2" firstAttribute="height" secondItem="GWv-Z1-JNI" secondAttribute="height" id="m2T-1N-jDt"/>
                             <constraint firstItem="vuB-uM-FM6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="wTm-c7-Eu5"/>
                             <constraint firstAttribute="trailing" secondItem="09g-Oi-zDE" secondAttribute="trailing" id="wbI-7U-Exy"/>
+                            <constraint firstItem="uEC-aY-8T2" firstAttribute="centerX" secondItem="GWv-Z1-JNI" secondAttribute="centerX" id="xsR-W9-knx"/>
                         </constraints>
                     </view>
                 </viewController>
