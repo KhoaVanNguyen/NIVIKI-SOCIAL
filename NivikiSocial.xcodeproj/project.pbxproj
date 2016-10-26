@@ -21,6 +21,7 @@
 		D23A92401DBFB08800649585 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DF1AA01DBFA97100BF7DDF /* FBSDKLoginKit.framework */; };
 		D23A92411DBFB08800649585 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DF1AA41DBFABDF00BF7DDF /* FBSDKShareKit.framework */; };
 		D23A92461DBFBCAD00649585 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D23A92451DBFBCAD00649585 /* GoogleService-Info.plist */; };
+		D2C914911DC0A68F00945700 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C914901DC0A68F00945700 /* Constant.swift */; };
 		D2D3BFD21D8006730026992C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2D3BFC71D8006730026992C /* LICENSE.txt */; };
 		D2D3BFD31D8006730026992C /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2D3BFC81D8006730026992C /* OpenSans-Bold.ttf */; };
 		D2D3BFD41D8006730026992C /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2D3BFC91D8006730026992C /* OpenSans-BoldItalic.ttf */; };
@@ -77,6 +78,7 @@
 		D21260A71D80008400F78754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D23A92421DBFBADF00649585 /* NivikiSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NivikiSocial.entitlements; sourceTree = "<group>"; };
 		D23A92451DBFBCAD00649585 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D2C914901DC0A68F00945700 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		D2D3BFC71D8006730026992C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		D2D3BFC81D8006730026992C /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		D2D3BFC91D8006730026992C /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				D23A92421DBFBADF00649585 /* NivikiSocial.entitlements */,
+				D2C914901DC0A68F00945700 /* Constant.swift */,
 				D2D3BFC61D80066B0026992C /* Resources */,
 				D21260851D80008400F78754 /* AppDelegate.swift */,
 				D2D3BFC51D80054C0026992C /* Storyboard */,
@@ -340,7 +343,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Khoa;
 				TargetAttributes = {
 					D21260811D80008300F78754 = {
@@ -573,6 +576,7 @@
 				D2D3BFE21D800DC00026992C /* RoundedImage.swift in Sources */,
 				D21260881D80008400F78754 /* SignInVC.swift in Sources */,
 				D21260861D80008400F78754 /* AppDelegate.swift in Sources */,
+				D2C914911DC0A68F00945700 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +649,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -695,6 +700,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
