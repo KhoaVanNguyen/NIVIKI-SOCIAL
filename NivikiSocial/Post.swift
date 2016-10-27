@@ -40,7 +40,7 @@ class Post {
         if let desc = dictionary["description"] as? String{
             self._postDescription = desc
         }
-        if let like = dictionary["likes"] as? Int{
+        if let like = dictionary["like"] as? Int{
             self._like = like
         }
         
