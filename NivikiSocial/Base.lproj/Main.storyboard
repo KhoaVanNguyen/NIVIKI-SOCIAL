@@ -194,47 +194,47 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="304"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fFL-91-Iiz" id="pQ2-kf-hjx">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="303"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="303.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37v-r6-7Qu" customClass="FancyView" customModule="NivikiSocial" customModuleProvider="target">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="303.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="304"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="aIB-TZ-uYk">
-                                                            <rect key="frame" x="20" y="20" width="335" height="263.5"/>
+                                                            <rect key="frame" x="20" y="20" width="335" height="264"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="z7Y-nW-ctU">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="335" height="50.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="335" height="51"/>
                                                                     <subviews>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="mnr-c2-Ueb" customClass="CircleView" customModule="NivikiSocial" customModuleProvider="target">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="80" height="50.5"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="80" height="51"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="80" id="wvF-HZ-qaQ"/>
                                                                             </constraints>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4X-kX-qBa">
-                                                                            <rect key="frame" x="80" y="0.0" width="135" height="50.5"/>
+                                                                            <rect key="frame" x="80" y="0.0" width="135" height="51"/>
                                                                             <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty-heart" translatesAutoresizingMaskIntoConstraints="NO" id="WLn-Be-HWa">
-                                                                            <rect key="frame" x="215" y="0.0" width="40" height="50.5"/>
+                                                                            <rect key="frame" x="215" y="0.0" width="40" height="51"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="40" id="A5T-Ls-vgj"/>
                                                                             </constraints>
                                                                         </imageView>
                                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yaj-Qg-B27">
-                                                                            <rect key="frame" x="255" y="0.0" width="80" height="50.5"/>
+                                                                            <rect key="frame" x="255" y="0.0" width="80" height="51"/>
                                                                             <subviews>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88O-sC-CfB">
-                                                                                    <rect key="frame" x="24.5" y="0.0" width="31" height="27.5"/>
+                                                                                    <rect key="frame" x="25" y="0.0" width="31" height="27"/>
                                                                                     <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="18"/>
                                                                                     <nil key="textColor"/>
                                                                                     <nil key="highlightedColor"/>
                                                                                 </label>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJg-OA-yRB">
-                                                                                    <rect key="frame" x="20.5" y="27.5" width="39.5" height="23"/>
+                                                                                    <rect key="frame" x="20" y="27" width="40" height="24"/>
                                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                     <nil key="textColor"/>
                                                                                     <nil key="highlightedColor"/>
@@ -250,7 +250,7 @@
                                                                     </constraints>
                                                                 </stackView>
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="ajdklasjdlk" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Go4-R1-kJj">
-                                                                    <rect key="frame" x="0.0" y="50.5" width="335" height="119.5"/>
+                                                                    <rect key="frame" x="0.0" y="51" width="335" height="119"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="0bU-U1-QYf"/>
@@ -259,7 +259,7 @@
                                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                 </textView>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devslopes-logo" translatesAutoresizingMaskIntoConstraints="NO" id="qe1-cI-Tkd">
-                                                                    <rect key="frame" x="0.0" y="170" width="335" height="93.5"/>
+                                                                    <rect key="frame" x="0.0" y="170" width="335" height="94"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="Tyv-Id-TKQ"/>
                                                                     </constraints>
@@ -297,11 +297,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Lzc-An-Ur9">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="2eG-nE-4Lb">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v23-Ca-3GY">
-                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="gTM-O0-WjV">
+                            <button key="customView" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="hjW-kd-F0H">
+                                <rect key="frame" x="16" y="11" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Logout"/>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -318,7 +317,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K8h-He-EIn" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="b8N-cc-AXi">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b8N-cc-AXi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.91325122117996216" green="0.057772181928157806" blue="0.077167056500911713" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

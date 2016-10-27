@@ -7,9 +7,11 @@
 //
 
 import UIKit
-
+import Firebase
 class FeedVC: UIViewController , UITableViewDataSource, UITableViewDelegate {
 
+    
+    var posts = [Post]()
     @IBOutlet weak var tableView : UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,25 @@ class FeedVC: UIViewController , UITableViewDataSource, UITableViewDelegate {
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        
+        
+        DataService.ds.REF_POSTS.observe(.value, with: {
+            snapshot in
+            self.posts = []
+            if let snapshots = snapshot.children.allObjects as? [FIRDataSnapshot] {
+               for snap in snapshots{
+                if let postData = snap.value as? Dictionary<String,Any>{
+                    let post = Post(postKey: snap.key, dictionary: postData)
+                    self.self.posts.append(post)
+                }
+                print("SNAP: \(snap)")
+            }
+            
+            self.tableView.reloadData()
+        
+            }}
+        )
  
     }
     
@@ -26,11 +47,19 @@ class FeedVC: UIViewController , UITableViewDataSource, UITableViewDelegate {
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return 3
+        return posts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
+        let post = posts[indexPath.row]
+        
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as? PostCell{
+            print(post.postDescription)
+            return cell
+        }else{
+            return PostCell()
+        }
+      
     }
 
     // MARK: - Navigation

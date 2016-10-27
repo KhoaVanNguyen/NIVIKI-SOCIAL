@@ -56,6 +56,8 @@ class SignInVC: UIViewController {
                         FIRAuth.auth()?.createUser(withEmail: email, password: pwd, completion: { (user, error) in
                     print("Create user successfully")
                     FIRAuth.auth()?.signIn(withEmail: email, password: pwd, completion: { (user, error) in
+                        
+                        DataService.ds.createFirebaseUser(uid: (user?.uid)!, userData: ["provider" : user?.providerID , "cai gi day" : "alo"])
                         UserDefaults.standard.setValue(user?.uid, forKey: UID)
                     })
                     })
