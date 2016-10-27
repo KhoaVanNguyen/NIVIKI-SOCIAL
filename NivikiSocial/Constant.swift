@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+let SHADOW_GRAY =  120.0 / 255.0
 
 let UID = "uid"
 
