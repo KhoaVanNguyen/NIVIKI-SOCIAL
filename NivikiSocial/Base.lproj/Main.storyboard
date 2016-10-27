@@ -161,11 +161,30 @@
                     <connections>
                         <outlet property="emailTF" destination="e4Y-B3-Q2a" id="87g-HE-eTh"/>
                         <outlet property="passwordTF" destination="4Hp-L2-hGD" id="6Ef-5q-7xZ"/>
+                        <segue destination="UCq-TX-Rdn" kind="show" identifier="FeedVC" id="PQs-Xp-LiH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="56.221889055472268"/>
+        </scene>
+        <!--FeedVC-->
+        <scene sceneID="p1f-gZ-OAB">
+            <objects>
+                <viewController id="UCq-TX-Rdn" customClass="FeedVC" customModule="NivikiSocial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3oF-fn-gbn"/>
+                        <viewControllerLayoutGuide type="bottom" id="SR7-BL-h5f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rkS-fx-OgW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t9h-dh-d7O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="955" y="43"/>
         </scene>
     </scenes>
     <resources>

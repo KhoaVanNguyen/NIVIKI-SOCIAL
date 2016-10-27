@@ -10,5 +10,11 @@ import Foundation
 
 
 
+let UID = "uid"
+
+// SEGUE
+
+let SEGUE_FEEDVC = "FeedVC"
+
 // STATUS
 let STATUS_USER_NONEXIST = 17011

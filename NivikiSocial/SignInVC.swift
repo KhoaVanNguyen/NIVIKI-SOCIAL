@@ -19,7 +19,14 @@ class SignInVC: UIViewController {
         super.viewDidLoad()
       
     }
- 
+    override func viewDidAppear(_ animated: Bool) {
+        print("\(UserDefaults.standard.value(forKey: UID))")
+        if UserDefaults.standard.value(forKey: UID) != nil {
+            print("\(UserDefaults.standard.value(forKey: UID))")
+            performSegue(withIdentifier: SEGUE_FEEDVC
+                , sender: nil)
+        }
+    }
     
     @IBAction func fbLogin(_ sender: Any) {
     let facebookLogin = FBSDKLoginManager()
@@ -39,28 +46,29 @@ class SignInVC: UIViewController {
             }
         }
     }
- 
-    
-    
     @IBAction func emailLogin(_ sender: Any) {
         if let email = emailTF.text, email != "" , let pwd = passwordTF.text , pwd != ""{
-            
             FIRAuth.auth()?.signIn(withEmail: email, password: pwd, completion: { (FIRUser, error) in
                 if error != nil{
-                    print( (error as! NSError).code == STATUS_USER_NONEXIST)
-                    self.showAlert(title: "User not found", msg: "This user wasn't created")
-                
-                FIRAuth.auth()?.createUser(withEmail: email, password: pwd, completion: { (user, error) in
+                    if  ( (error as! NSError).code == STATUS_USER_NONEXIST ){
+                        self.showAlert(title: "User not found", msg: "This user wasn't created")
                     
+                        FIRAuth.auth()?.createUser(withEmail: email, password: pwd, completion: { (user, error) in
                     print("Create user successfully")
+                    FIRAuth.auth()?.signIn(withEmail: email, password: pwd, completion: { (user, error) in
+                        UserDefaults.standard.setValue(user?.uid, forKey: UID)
+                    })
+                    })
                     
-                })
+                }
                     
                 }
                 // Success
                 else {
                     print("Login success")
-                   
+                    
+                    self.performSegue(withIdentifier: SEGUE_FEEDVC, sender: nil)
+                    UserDefaults.standard.setValue(FIRUser?.uid, forKey: UID)
                 }
             })
             
@@ -86,6 +94,8 @@ class SignInVC: UIViewController {
                 print("Firebase login error")
             }else{
                 print("Login successfully")
+                self.performSegue(withIdentifier: SEGUE_FEEDVC, sender: nil)
+                UserDefaults.standard.setValue(user?.uid, forKey: UID)
             }
         })
     }
